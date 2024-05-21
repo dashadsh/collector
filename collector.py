@@ -4,12 +4,14 @@
 # install Selenium
 # download WebDriver
 
+# -----------------------------------------------------------
 # initialize WebDriver (ensure chromedriver is in your PATH)
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome()
 
+# -----------------------------------------------------------
 # define the URL to be scraped
 url = 'https://www.scrapethissite.com/pages/forms'
 
