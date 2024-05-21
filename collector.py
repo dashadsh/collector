@@ -9,7 +9,14 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-driver = webdriver.Chrome()
+# driver = webdriver.Chrome()
+
+# headless mode:
+# Add --headless=new in the add_argument method before launching the browser.
+from selenium.webdriver.chrome.options import Options as ChromeOptions
+options = ChromeOptions()
+options.add_argument("--headless=new")
+driver = webdriver.Chrome(options=options)
 
 # -----------------------------------------------------------
 # define the URL to be scraped
