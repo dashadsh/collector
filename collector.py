@@ -1,5 +1,6 @@
 # run: python3 test.py
 
+# https://www.scrapingbee.com/blog/selenium-python/
 # https://serpapi.com/blog/selenium-web-scraping-python/
 # install Selenium
 # download WebDriver
